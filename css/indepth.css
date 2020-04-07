@@ -1,7 +1,7 @@
 @font-face
 {
-   font-family: "Bebas-neue";
-   src: url(../fonts/BebasNeue.otf) format("opentype");
+   font-family: "Gotham-Medium";
+   src: url(../fonts/Gotham-Medium.otf) format("opentype");
 }
 
 .pages_content {
@@ -78,14 +78,15 @@
 }
 
 .content-name {
-	font-family: "Bebas-neue";
+	font-family: "Gotham-Medium";
 	font-size: 26px;
 	color: #2ee080;
 	text-align: center;
 	margin: 0px 8px;
 	letter-spacing: 3px;
 	margin-top: 15px;
-	min-height: 55px;
+	min-height: 65px;
+	max-width: 278px;
 }
 
 .fancybox-nav span {
@@ -95,7 +96,7 @@
 #txt-fin {
 	width: 60%;
 	margin: auto;
-	font-family: "Bebas-neue";
+	font-family: "Gotham-Medium";
 	font-size: 22px;
 	color: #fff;
 	letter-spacing: 3px;
@@ -150,6 +151,11 @@
 }
 
 @media(max-width: 570px) {
+	.pages_content {
+		background-image: none;
+		background-color: #1b2437;
+	}
+
 	.indepth_content {
     	width: 400px;
     }
